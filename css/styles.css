@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: 0px auto;
+}
+.main-elements{
+    width: 876px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: rgb(0, 195, 255);
+    margin-top: 20px;
+    gap: 12px;
+    border-radius: 20px;
+}
+.section-input{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.section-input input{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.section-input button{
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    background-color: gray;
+    text-align: center;
+    line-height: 2.4;
+    border: none;
+    border-radius: 10px;
+}
+.section-input button:hover{
+    background-color: #f3f3f3;
+}
+.section-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-list ul li{
+    width: 876px;
+    height: 40px;
+    background-color: gray;
+    list-style: none;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 41px;
+    cursor: pointer;
+}
+.section-list ul li:nth-child(odd){
+    background: #f9f9f9;
+}
+ul li:hover {
+    background: #ddd;
+  }
+.checked {
+    background-color: blue;
+    color: blue;
+    text-decoration: line-through;
+}
+
+
+.close {
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    right: 0;
+    margin-right: 175px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 2px;
+    cursor: pointer;
+    background: #f9f9f9;
+}
+.close:hover{
+    background-color:#166491;
+}
+.sc-Lista{
+    height: 50px;
+}
